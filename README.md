@@ -1,24 +1,37 @@
 # Hakan Berat Demircan
 
-**Full-Stack .NET Developer | Web & Mobile Applications**
+**Full-Stack .NET Developer**  
+C# · ASP.NET Core · Blazor · .NET MAUI · SQL Server
 
-I develop web and mobile applications with C# and .NET. My background spans software development, business operations and applied research. At Halkbank, I wrote reporting programs using IBM Db2. At Eastern Mediterranean University, I designed an Android application prototype for the School of Computing and Technology as my master’s project. Later, as co-owner of Dive Hub in Famagusta, I spent ten years managing the business and developing software for it.
+I build web and mobile applications with .NET, from database design and backend logic to user interfaces. For ten years, I co-owned and operated a scuba diving center in Famagusta, where I coordinated staff and boats, managed the center’s IT infrastructure, and developed its Android app and a digital dive logbook. That experience informs the business rules I implement in my software today.
 
-At Dive Hub, I was responsible for the people, boats and equipment behind each day’s operations, as well as the center’s IT infrastructure. I built its Android application and a digital logbook for divers. That experience now informs two distinct software projects: a marketplace for customers and independent dive centers, and a management platform for the staff running a center.
+## Selected projects
 
-## Selected work
+### DiveHub Management Platform
 
-**[DiveHub Management Platform](https://github.com/hakanberat/DiveHub-Management-Platform)**  
-A full-stack application for dive center operations, currently in development. A Blazor front end serves customers and administrators through a separate ASP.NET Core Web API. The solution separates domain logic, application services and data access, with Entity Framework Core and SQL Server for persistence.
+A full-stack application for managing a dive center’s reservations and daily operations. Administrators approve reservation requests and allocate boats and instructors. The application prevents the same boat or instructor from being assigned twice on the same day.
 
-**[Scuba Diving Marketplace](https://github.com/hakanberat/Scuba-Diving-Marketplace)**  
-A multi-center booking application built with ASP.NET Core MVC, Dapper and SQL Server. It covers both sides of a reservation: divers search activities and submit requests, while center owners manage listings and respond to customers. Administrators review applications from centers seeking to join.
+**Stack** · ASP.NET Core Web API, Blazor, Entity Framework Core, SQL Server  
+[View repository](https://github.com/hakanberat/DiveHub-Management-Platform)
 
-**[LifeDeck](https://github.com/hakanberat/LifeDeck)**  
-A browser-based personal workspace built with Blazor WebAssembly. It brings tasks, notes, appointments and personal finances into one application. Records stay in the user’s browser, with JSON backup and restore and Excel export.
+### Scuba Diving Marketplace
 
-## Education & research
+A booking platform serving multiple dive centers, with role-based access for customers, center owners and administrators. The repository documents the reservation workflow and includes PowerShell smoke tests for key user flows.
 
-I hold a BSc in Computer Technology and Information Systems, a Master of Technology in Information Technology and a PhD in Tourism Management from Eastern Mediterranean University. My doctoral research examined how mobile applications influence sustainable behavior in scuba diving tourism. I am the lead author of a 2025 paper on this subject in the *Journal of Hospitality and Tourism Technology*.
+**Stack** · ASP.NET Core MVC, Dapper, SQL Server  
+[View repository](https://github.com/hakanberat/Scuba-Diving-Marketplace) · [Browse smoke tests](https://github.com/hakanberat/Scuba-Diving-Marketplace/tree/main/Tests)
+
+### LifeDeck
+
+A Blazor WebAssembly PWA for tasks, notes, scheduling and personal finance. It stores records in the browser and supports JSON backup and restore and Excel export.
+
+**Stack** · C#, .NET, Blazor WebAssembly  
+[View repository](https://github.com/hakanberat/LifeDeck)
+
+## Background
+
+During a software development internship at Halkbank, I wrote reporting programs using IBM Db2. For my master’s project at Eastern Mediterranean University, I developed an Android application prototype for the School of Computing and Technology.
+
+I hold a BSc in Computer Technology and Information Systems, a Master of Technology in Information Technology, and a PhD in Tourism Management. My doctoral research examined how mobile apps influence sustainable behavior in scuba diving tourism.
 
 [Portfolio](https://hakanberat.github.io)
