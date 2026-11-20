@@ -2,19 +2,23 @@
 
 **Full-Stack .NET Developer | Web & Mobile Applications**
 
-I build web and mobile applications with C# and .NET. For ten years, I co-owned and ran a scuba diving center in Famagusta, Cyprus. I taught divers, captained the boat and managed daily operations. I also developed the center’s Android app and a digital logbook for divers.
+I develop web and mobile applications with C# and .NET. My background spans software development, business operations and applied research. At Halkbank, I wrote reporting programs using IBM Db2. At Eastern Mediterranean University, I designed an Android application prototype for the School of Computing and Technology as my master’s project. Later, as co-owner of Dive Hub in Famagusta, I spent ten years managing the business and developing software for it.
 
-That experience still shapes how I write software. A reservation looks simple on a screen. At a dive center, someone has to check availability, assign an instructor and let the customer know whether the dive is confirmed. Those are the details I think about when I design a database, build an API or decide what a user should see next.
+At Dive Hub, I was responsible for the people, boats and equipment behind each day’s operations, as well as the center’s IT infrastructure. I built its Android application and a digital logbook for divers. That experience now informs two distinct software projects: a marketplace for customers and independent dive centers, and a management platform for the staff running a center.
 
-I hold a bachelor’s and a master’s degree in Information Technology, and a PhD in Tourism Management. My doctoral research explored how mobile applications influence sustainable behavior in scuba diving tourism.
+## Selected work
 
-## Selected projects
+**[DiveHub Management Platform](https://github.com/hakanberat/DiveHub-Management-Platform)**  
+A full-stack application for dive center operations, currently in development. A Blazor front end serves customers and administrators through a separate ASP.NET Core Web API. The solution separates domain logic, application services and data access, with Entity Framework Core and SQL Server for persistence.
 
-- **[Scuba Diving Marketplace](https://github.com/hakanberat/Scuba-Diving-Marketplace)** — Divers can find activities and request a reservation. Center owners manage listings and respond to requests. Built with ASP.NET Core MVC, Dapper and SQL Server.
-- **[DiveHub Management Platform](https://github.com/hakanberat/DiveHub-Management-Platform)** — A platform for managing dive center operations, including activities, dive sites, boats and staff. Built with an ASP.NET Core Web API, Blazor and Entity Framework Core.
-- **[LifeDeck](https://github.com/hakanberat/LifeDeck)** — A personal organizer I built with Blazor WebAssembly to keep tasks, notes, calendar entries and finances in one place, with local storage and data export.
+**[Scuba Diving Marketplace](https://github.com/hakanberat/Scuba-Diving-Marketplace)**  
+A multi-center booking application built with ASP.NET Core MVC, Dapper and SQL Server. It covers both sides of a reservation: divers search activities and submit requests, while center owners manage listings and respond to customers. Administrators review applications from centers seeking to join.
 
-**Technologies I work with**  
-C# · .NET · ASP.NET Core MVC & Web API · Blazor · .NET MAUI · Entity Framework Core · Dapper · SQL Server · SQLite
+**[LifeDeck](https://github.com/hakanberat/LifeDeck)**  
+A browser-based personal workspace built with Blazor WebAssembly. It brings tasks, notes, appointments and personal finances into one application. Records stay in the user’s browser, with JSON backup and restore and Excel export.
 
-[Visit my portfolio →](https://hakanberat.github.io)
+## Education & research
+
+I hold a BSc in Computer Technology and Information Systems, a Master of Technology in Information Technology and a PhD in Tourism Management from Eastern Mediterranean University. My doctoral research examined how mobile applications influence sustainable behavior in scuba diving tourism. I am the lead author of a 2025 paper on this subject in the *Journal of Hospitality and Tourism Technology*.
+
+[Portfolio](https://hakanberat.github.io)
